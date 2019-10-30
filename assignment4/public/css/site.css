@@ -1,0 +1,64 @@
+h3{
+    color: red;
+}
+body{
+    margin: 0;
+	width:100%;
+    height:100%;
+    font-family: 'ABeeZee', sans-serif;
+    color: snow;
+background-image: url(https://images.pexels.com/photos/459271/pexels-photo-459271.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);	
+}
+		
+header{
+    background-color: #ddd;
+    padding:5px 25px;
+    background: #232526;  
+background: -webkit-linear-gradient(to right, #414345, #232526);
+background: linear-gradient(to right, #414345, #232526); 
+}
+div.table-responsive{
+background-color:darkred;
+}
+nav{
+	padding:8px;
+	background-color: #444;
+}
+		
+nav ul{
+	list-style-type: none;
+    padding-left:0px;
+	margin:0px;
+}
+		
+nav ul li{
+	display:inline-block;
+	background-color: #444;
+}
+		
+nav ul li a{
+	background-color: #444;
+	color: #eee;
+	text-decoration: none;
+	padding:0 5px;	
+	font-weight:bold;
+    text-transform: uppercase;
+	font-size:13px;
+}
+nav ul li a:hover{
+background-color: black;
+color: chartreuse;
+font-size: 15px;
+}
+footer{
+    background-color: #444;
+	color: #eee;
+	padding:10px;
+}
+		
+footer h2{
+	margin:0px;
+	text-transform: uppercase;
+	font-size:13px;
+	padding:0 5px;	
+}
